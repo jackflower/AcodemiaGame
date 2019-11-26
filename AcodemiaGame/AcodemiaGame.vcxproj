@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{3AC97D5F-54D0-4C7E-9FDD-EA7C239403B4}</ProjectGuid>
+    <ProjectGuid>{5A8A0230-669F-4A53-8F73-D2C3156B7D64}</ProjectGuid>
     <RootNamespace>AcodemiaGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -76,7 +76,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -94,10 +99,13 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-main.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -115,6 +123,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="source\animation\Animated.cpp" />
+    <ClCompile Include="source\animation\Animation.cpp" />
+    <ClCompile Include="source\animation\AnimationFrame.cpp" />
+    <ClCompile Include="source\enemygenerator\EnemyGenerator.cpp" />
+    <ClCompile Include="source\explosion\Explosion.cpp" />
+    <ClCompile Include="source\manager\PhysicalManager.cpp" />
+    <ClCompile Include="source\physicals\actor\Actor.cpp" />
+    <ClCompile Include="source\physicals\bullet\Bullet.cpp" />
+    <ClCompile Include="source\physicals\enemy\Enemy.cpp" />
+    <ClCompile Include="source\physicals\gun\Gun.cpp" />
+    <ClCompile Include="source\physicals\physical\Physical.cpp" />
+    <ClCompile Include="source\physicals\player\Player.cpp" />
+    <ClCompile Include="source\rendering\Displayable.cpp" />
+    <ClCompile Include="source\rendering\Sprite.cpp" />
+    <ClCompile Include="source\rendering\Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\animation\Animated.h" />
+    <ClInclude Include="source\animation\Animation.h" />
+    <ClInclude Include="source\animation\AnimationFrame.h" />
+    <ClInclude Include="source\enemygenerator\EnemyGenerator.h" />
+    <ClInclude Include="source\explosion\Explosion.h" />
+    <ClInclude Include="source\manager\PhysicalManager.h" />
+    <ClInclude Include="source\physicals\actor\Actor.h" />
+    <ClInclude Include="source\physicals\bullet\Bullet.h" />
+    <ClInclude Include="source\physicals\enemy\Enemy.h" />
+    <ClInclude Include="source\physicals\gun\Gun.h" />
+    <ClInclude Include="source\physicals\physical\Physical.h" />
+    <ClInclude Include="source\physicals\player\Player.h" />
+    <ClInclude Include="source\rendering\Displayable.h" />
+    <ClInclude Include="source\rendering\Sprite.h" />
+    <ClInclude Include="source\rendering\Texture.h" />
+    <ClInclude Include="source\utilities\Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
