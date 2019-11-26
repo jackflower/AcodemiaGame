@@ -4,7 +4,7 @@
 # Acodemia++
 ## 2019-2020
 
-Repozytorium - grupa tworząca projekt – grę w języku C/C++ z wykorzystaniem biblioteki SFML
+Repozytorium - projekt gry w języku C/C++ z wykorzystaniem biblioteki SFML
 
 ### MicorosoftS Visual Studio 2017
 ### SFML 2.5.1
