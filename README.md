@@ -6,6 +6,6 @@
 
 Repozytorium - projekt gry w języku C/C++ z wykorzystaniem biblioteki SFML
 
-### MicorosoftS Visual Studio 2017
-### SFML 2.5.1
+#### MicorosoftS Visual Studio 2017
+#### SFML 2.5.1
 
