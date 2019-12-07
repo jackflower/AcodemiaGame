@@ -1,18 +1,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "source/rendering/Texture.h"
-//#include "source/physicals/actor/Actor.h"
-
-
-//#include "source/rendering/Displayable.h"
-//#include "source/animation/Animated.h"
-//#include "source/physicals/physical/Physical.h"
-//#include "source/physicals/bullet/Bullet.h"
 #include "source/physicals/player/Player.h"
-//#include "source/physicals/enemy/Enemy.h"
 #include "source/manager/PhysicalManager.h"
-//#include "source/explosion/Explosion.h"
-//#include "source/enemygenerator/EnemyGenerator.h"
 
 int main()
 {
