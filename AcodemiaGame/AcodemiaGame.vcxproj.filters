@@ -55,6 +55,9 @@
     <Filter Include="source\utilities">
       <UniqueIdentifier>{47c38ab6-7480-499f-ac88-f55b370b8aa1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\physicals\tower">
+      <UniqueIdentifier>{14833f8a-5e7a-4717-9411-a99972fa3a35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\animation\Animated.cpp">
@@ -105,6 +108,9 @@
     <ClCompile Include="main.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="source\physicals\tower\Tower.cpp">
+      <Filter>source\physicals\tower</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\animation\Animated.h">
@@ -154,6 +160,9 @@
     </ClInclude>
     <ClInclude Include="source\utilities\Singleton.h">
       <Filter>source\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\tower\Tower.h">
+      <Filter>source\physicals\tower</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
