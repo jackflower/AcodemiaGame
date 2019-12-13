@@ -13,105 +13,147 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{86eebcd4-b7fa-41d5-bc54-f55598ecbdec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\animation">
+      <UniqueIdentifier>{bd6dcb3b-9867-45e2-8957-cfb2dc9aedb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\enemygenerator">
+      <UniqueIdentifier>{6762367b-789c-4635-ac08-c73fdb51b0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\explosion">
+      <UniqueIdentifier>{8434fdd3-11b7-477a-9d22-3d0227e8c7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\manager">
+      <UniqueIdentifier>{a4eee746-cc03-451f-a61c-7e8cb55d1da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\rendering">
+      <UniqueIdentifier>{8b52e160-a277-440a-82a7-25ebcef052a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals">
+      <UniqueIdentifier>{d2a8f16b-84ef-461a-a664-b4cc488cd420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\actor">
+      <UniqueIdentifier>{97c86529-2188-41aa-b4bc-b4a784bae047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\bullet">
+      <UniqueIdentifier>{55a6b39f-ae81-4eb1-abaf-ab6d4e3fc297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\enemy">
+      <UniqueIdentifier>{a5e40549-68a7-404a-b255-fb730ebe5156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\gun">
+      <UniqueIdentifier>{93481403-c5bb-4cd7-aba5-94a49b7ef1c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\physical">
+      <UniqueIdentifier>{41ac41a9-0ca4-4b4f-a005-841689eba5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physicals\player">
+      <UniqueIdentifier>{72b18bf5-ba10-40c6-9449-e0dda136b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utilities">
+      <UniqueIdentifier>{47c38ab6-7480-499f-ac88-f55b370b8aa1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
     <ClCompile Include="source\animation\Animated.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\animation</Filter>
     </ClCompile>
     <ClCompile Include="source\animation\Animation.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\animation</Filter>
     </ClCompile>
     <ClCompile Include="source\animation\AnimationFrame.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\animation</Filter>
     </ClCompile>
     <ClCompile Include="source\enemygenerator\EnemyGenerator.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\enemygenerator</Filter>
     </ClCompile>
     <ClCompile Include="source\explosion\Explosion.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\explosion</Filter>
     </ClCompile>
     <ClCompile Include="source\manager\PhysicalManager.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\actor\Actor.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\bullet\Bullet.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\enemy\Enemy.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\gun\Gun.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\physical\Physical.cpp">
-      <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="source\physicals\player\Player.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\manager</Filter>
     </ClCompile>
     <ClCompile Include="source\rendering\Displayable.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\rendering</Filter>
     </ClCompile>
     <ClCompile Include="source\rendering\Sprite.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\rendering</Filter>
     </ClCompile>
     <ClCompile Include="source\rendering\Texture.cpp">
-      <Filter>Pliki źródłowe</Filter>
+      <Filter>source\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\actor\Actor.cpp">
+      <Filter>source\physicals\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\bullet\Bullet.cpp">
+      <Filter>source\physicals\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\enemy\Enemy.cpp">
+      <Filter>source\physicals\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\gun\Gun.cpp">
+      <Filter>source\physicals\gun</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\player\Player.cpp">
+      <Filter>source\physicals\player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physicals\physical\Physical.cpp">
+      <Filter>source\physicals\physical</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\animation\Animated.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\animation</Filter>
     </ClInclude>
     <ClInclude Include="source\animation\Animation.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\animation</Filter>
     </ClInclude>
     <ClInclude Include="source\animation\AnimationFrame.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\animation</Filter>
     </ClInclude>
     <ClInclude Include="source\enemygenerator\EnemyGenerator.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\enemygenerator</Filter>
     </ClInclude>
     <ClInclude Include="source\explosion\Explosion.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\explosion</Filter>
     </ClInclude>
     <ClInclude Include="source\manager\PhysicalManager.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\actor\Actor.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\bullet\Bullet.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\enemy\Enemy.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\gun\Gun.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\physical\Physical.h">
-      <Filter>Pliki nagłówkowe</Filter>
-    </ClInclude>
-    <ClInclude Include="source\physicals\player\Player.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\manager</Filter>
     </ClInclude>
     <ClInclude Include="source\rendering\Displayable.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\rendering</Filter>
     </ClInclude>
     <ClInclude Include="source\rendering\Sprite.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\rendering</Filter>
     </ClInclude>
     <ClInclude Include="source\rendering\Texture.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\actor\Actor.h">
+      <Filter>source\physicals\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\bullet\Bullet.h">
+      <Filter>source\physicals\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\enemy\Enemy.h">
+      <Filter>source\physicals\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\gun\Gun.h">
+      <Filter>source\physicals\gun</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\physical\Physical.h">
+      <Filter>source\physicals\physical</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physicals\player\Player.h">
+      <Filter>source\physicals\player</Filter>
     </ClInclude>
     <ClInclude Include="source\utilities\Singleton.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>source\utilities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
