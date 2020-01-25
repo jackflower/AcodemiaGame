@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\animation\Animated.cpp" />
     <ClCompile Include="source\animation\Animation.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="source\physicals\tower\Tower.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Knight.h" />
     <ClInclude Include="source\animation\Animated.h" />
     <ClInclude Include="source\animation\Animation.h" />
     <ClInclude Include="source\animation\AnimationFrame.h" />

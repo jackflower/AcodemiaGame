@@ -3,9 +3,25 @@
 #include "source/rendering/Texture.h"
 #include "source/physicals/player/Player.h"
 #include "source/manager/PhysicalManager.h"
+#include "Knight.h"
+
+
+
 
 int main()
 {
+	Knight Lancelot;
+	Knight Zawisza;
+	Zawisza.setHealth(234);
+	//
+	///
+	///
+
+
+	int sss = 0;
+
+
+
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Acodemia++ SCI 2019-2020 C/C++ and SFML", sf::Style::Close);
 	window.setKeyRepeatEnabled(false);
 

@@ -111,6 +111,9 @@
     <ClCompile Include="source\physicals\tower\Tower.cpp">
       <Filter>source\physicals\tower</Filter>
     </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\animation\Animated.h">
@@ -163,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="source\physicals\tower\Tower.h">
       <Filter>source\physicals\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
