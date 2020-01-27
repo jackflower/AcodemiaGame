@@ -19,3 +19,9 @@ void Knight::setHealth(float health)
 {
 	m_health = health;
 }
+
+const float Knight::getHealth() const
+{
+	return m_health;
+}
+
