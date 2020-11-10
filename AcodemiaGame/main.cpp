@@ -17,6 +17,8 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Acodemia++ SCI 2019-2020", sf::Style::Close);
 	window.setKeyRepeatEnabled(false);
 
+
+	// B E G IN
 	// G r a p h i c s
 
 	// E x p l o s i o n
@@ -96,6 +98,8 @@ int main()
 	animek.setPosition(700.f, 100.f);
 	animek.setAnimationSpeed(1.5f);
 	//Animation  u s a g e  -  logo SCI
+
+	// E N D------------->
 
 	while (window.isOpen())
 	{
